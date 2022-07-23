@@ -1,0 +1,997 @@
+2022.07.23 15:19:10 INFO  tracing is disabled for protocol LSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/gumuncle/source/raytracing.github.io/src/InOneWeekend/scala/oneweekend/.metals/lsp.trace.json or /home/gumuncle/.cache/metals/lsp.trace.json[0m
+2022.07.23 15:19:10 INFO  logging to file /home/gumuncle/source/raytracing.github.io/src/InOneWeekend/scala/oneweekend/.metals/metals.log[0m
+2022.07.23 15:19:10 INFO  Started: Metals version 0.11.7 in workspace '/home/gumuncle/source/raytracing.github.io/src/InOneWeekend/scala/oneweekend' for client Code - OSS 1.68.1.[0m
+2022.07.23 15:19:10 WARN  Can't instantiate JavaInteractiveSemanticdb (version: Some(JdkVersion(11)), jdkHome: /usr/lib/jvm/default, javac exists: false)[0m
+2022.07.23 15:19:10 INFO  time: initialize in 0.18s[0m
+2022.07.23 15:19:10 WARN  Flyway upgrade recommended: H2 2.1.214 is newer than this version of Flyway and support has not been tested. The latest supported version of H2 is 2.1.210.[0m
+2022.07.23 15:19:10 WARN  Build server is not auto-connectable.[0m
+2022.07.23 15:19:13 INFO  running '/usr/lib/jvm/default/bin/java -Djline.terminal=jline.UnsupportedTerminal -Dsbt.log.noformat=true -Dfile.encoding=UTF-8 -jar /tmp/metals6873996381784903621/sbt-launch.jar -Dbloop.export-jar-classifiers=sources bloopInstall'[0m
+2022.07.23 15:19:13 ERROR [info] [launcher] getting org.scala-sbt sbt 1.7.1  (this may take some time)...[0m
+2022.07.23 15:19:13 WARN  no build target for: /home/gumuncle/source/raytracing.github.io/src/InOneWeekend/scala/oneweekend/project/project/metals.sbt[0m
+2022.07.23 15:19:13 WARN  no build target for: /home/gumuncle/source/raytracing.github.io/src/InOneWeekend/scala/oneweekend/project/metals.sbt[0m
+2022.07.23 15:19:13 INFO  skipping build import with status 'Started'[0m
+2022.07.23 15:19:15 INFO  no build target found for /home/gumuncle/source/raytracing.github.io/src/InOneWeekend/scala/oneweekend/project/project/metals.sbt. Using presentation compiler with project's scala-library version: 3.1.3[0m
+2022.07.23 15:20:13 ERROR downloading https://repo1.maven.org/maven2/org/scala-sbt/sbt/1.7.1/sbt-1.7.1.jar ...[0m
+2022.07.23 15:20:13 ERROR downloading https://repo1.maven.org/maven2/org/scala-sbt/main_2.12/1.7.1/main_2.12-1.7.1.jar ...[0m
+2022.07.23 15:20:13 ERROR downloading https://repo1.maven.org/maven2/org/scala-lang/scala-library/2.12.16/scala-library-2.12.16.jar ...[0m
+2022.07.23 15:20:13 ERROR downloading https://repo1.maven.org/maven2/org/scala-sbt/actions_2.12/1.7.1/actions_2.12-1.7.1.jar ...[0m
+2022.07.23 15:20:13 ERROR downloading https://repo1.maven.org/maven2/org/scala-sbt/logic_2.12/1.7.1/logic_2.12-1.7.1.jar ...[0m
+2022.07.23 15:20:13 ERROR downloading https://repo1.maven.org/maven2/org/scala-sbt/io_2.12/1.7.0/io_2.12-1.7.0.jar ...[0m
+2022.07.23 15:20:13 ERROR downloading https://repo1.maven.org/maven2/org/scala-sbt/main-settings_2.12/1.7.1/main-settings_2.12-1.7.1.jar ...[0m
+2022.07.23 15:20:13 ERROR downloading https://repo1.maven.org/maven2/org/scala-sbt/run_2.12/1.7.1/run_2.12-1.7.1.jar ...[0m
+2022.07.23 15:20:13 ERROR :: loading settings :: url = jar:file:/tmp/metals6873996381784903621/sbt-launch.jar!/org/apache/ivy/core/settings/ivysettings.xml[0m
+2022.07.23 15:20:13 ERROR :: loading settings :: url = jar:file:/tmp/metals6873996381784903621/sbt-launch.jar!/org/apache/ivy/core/settings/ivysettings.xml[0m
+2022.07.23 15:20:13 ERROR :: loading settings :: url = jar:file:/tmp/metals6873996381784903621/sbt-launch.jar!/org/apache/ivy/core/settings/ivysettings.xml[0m
+2022.07.23 15:20:13 ERROR :: loading settings :: url = jar:file:/tmp/metals6873996381784903621/sbt-launch.jar!/org/apache/ivy/core/settings/ivysettings.xml[0m
+2022.07.23 15:20:13 ERROR :: loading settings :: url = jar:file:/tmp/metals6873996381784903621/sbt-launch.jar!/org/apache/ivy/core/settings/ivysettings.xml[0m
+2022.07.23 15:20:13 ERROR :: loading settings :: url = jar:file:/tmp/metals6873996381784903621/sbt-launch.jar!/org/apache/ivy/core/settings/ivysettings.xml[0m
+2022.07.23 15:20:13 ERROR :: loading settings :: url = jar:file:/tmp/metals6873996381784903621/sbt-launch.jar!/org/apache/ivy/core/settings/ivysettings.xml[0m
+2022.07.23 15:20:13 ERROR :: loading settings :: url = jar:file:/tmp/metals6873996381784903621/sbt-launch.jar!/org/apache/ivy/core/settings/ivysettings.xml[0m
+2022.07.23 15:20:13 ERROR 	[SUCCESSFUL ] org.scala-sbt#run_2.12;1.7.1!run_2.12.jar (534ms)[0m
+2022.07.23 15:20:13 ERROR downloading https://repo1.maven.org/maven2/org/scala-sbt/command_2.12/1.7.1/command_2.12-1.7.1.jar ...[0m
+2022.07.23 15:20:14 ERROR 	[SUCCESSFUL ] org.scala-sbt#logic_2.12;1.7.1!logic_2.12.jar (1102ms)[0m
+2022.07.23 15:20:14 ERROR downloading https://repo1.maven.org/maven2/org/scala-sbt/collections_2.12/1.7.1/collections_2.12-1.7.1.jar ...[0m
+2022.07.23 15:20:14 ERROR 	[SUCCESSFUL ] org.scala-sbt#sbt;1.7.1!sbt.jar (1120ms)[0m
+2022.07.23 15:20:14 ERROR downloading https://repo1.maven.org/maven2/org/scala-sbt/scripted-plugin_2.12/1.7.1/scripted-plugin_2.12-1.7.1.jar ...[0m
+2022.07.23 15:20:14 ERROR 	[SUCCESSFUL ] org.scala-sbt#actions_2.12;1.7.1!actions_2.12.jar (1289ms)[0m
+2022.07.23 15:20:14 ERROR downloading https://repo1.maven.org/maven2/org/scala-sbt/zinc-lm-integration_2.12/1.7.1/zinc-lm-integration_2.12-1.7.1.jar ...[0m
+2022.07.23 15:20:14 ERROR 	[SUCCESSFUL ] org.scala-sbt#command_2.12;1.7.1!command_2.12.jar (775ms)[0m
+2022.07.23 15:20:14 ERROR downloading https://repo1.maven.org/maven2/org/scala-sbt/util-logging_2.12/1.7.1/util-logging_2.12-1.7.1.jar ...[0m
+2022.07.23 15:20:14 ERROR 	[SUCCESSFUL ] org.scala-sbt#io_2.12;1.7.0!io_2.12.jar (1496ms)[0m
+2022.07.23 15:20:14 ERROR downloading https://repo1.maven.org/maven2/io/get-coursier/lm-coursier-shaded_2.12/2.0.10/lm-coursier-shaded_2.12-2.0.10.jar ...[0m
+2022.07.23 15:20:14 ERROR 	[SUCCESSFUL ] org.scala-sbt#main-settings_2.12;1.7.1!main-settings_2.12.jar (1499ms)[0m
+2022.07.23 15:20:14 ERROR downloading https://repo1.maven.org/maven2/org/apache/logging/log4j/log4j-api/2.17.1/log4j-api-2.17.1.jar ...[0m
+2022.07.23 15:20:14 ERROR 	[SUCCESSFUL ] org.scala-sbt#scripted-plugin_2.12;1.7.1!scripted-plugin_2.12.jar (812ms)[0m
+2022.07.23 15:20:14 ERROR downloading https://repo1.maven.org/maven2/org/apache/logging/log4j/log4j-core/2.17.1/log4j-core-2.17.1.jar ...[0m
+2022.07.23 15:20:14 ERROR 	[SUCCESSFUL ] org.scala-sbt#util-logging_2.12;1.7.1!util-logging_2.12.jar (764ms)[0m
+2022.07.23 15:20:14 ERROR downloading https://repo1.maven.org/maven2/org/apache/logging/log4j/log4j-slf4j-impl/2.17.1/log4j-slf4j-impl-2.17.1.jar ...[0m
+2022.07.23 15:20:14 ERROR 	[SUCCESSFUL ] org.scala-sbt#zinc-lm-integration_2.12;1.7.1!zinc-lm-integration_2.12.jar (806ms)[0m
+2022.07.23 15:20:14 ERROR downloading https://repo1.maven.org/maven2/org/scala-sbt/librarymanagement-core_2.12/1.7.0/librarymanagement-core_2.12-1.7.0.jar ...[0m
+2022.07.23 15:20:15 ERROR 	[SUCCESSFUL ] org.apache.logging.log4j#log4j-api;2.17.1!log4j-api.jar (788ms)[0m
+2022.07.23 15:20:15 ERROR downloading https://repo1.maven.org/maven2/org/scala-sbt/librarymanagement-ivy_2.12/1.7.0/librarymanagement-ivy_2.12-1.7.0.jar ...[0m
+2022.07.23 15:20:15 ERROR 	[SUCCESSFUL ] org.scala-sbt#collections_2.12;1.7.1!collections_2.12.jar (1366ms)[0m
+2022.07.23 15:20:15 ERROR downloading https://repo1.maven.org/maven2/org/scala-sbt/compiler-interface/1.7.1/compiler-interface-1.7.1.jar ...[0m
+2022.07.23 15:20:15 ERROR 	[SUCCESSFUL ] org.scala-lang#scala-library;2.12.16!scala-library.jar (2484ms)[0m
+2022.07.23 15:20:15 ERROR downloading https://repo1.maven.org/maven2/org/scala-sbt/zinc-compile_2.12/1.7.1/zinc-compile_2.12-1.7.1.jar ...[0m
+2022.07.23 15:20:15 ERROR 	[SUCCESSFUL ] org.apache.logging.log4j#log4j-slf4j-impl;2.17.1!log4j-slf4j-impl.jar (489ms)[0m
+2022.07.23 15:20:15 ERROR downloading https://repo1.maven.org/maven2/org/scala-sbt/util-relation_2.12/1.7.1/util-relation_2.12-1.7.1.jar ...[0m
+2022.07.23 15:20:15 ERROR 	[SUCCESSFUL ] org.scala-sbt#librarymanagement-ivy_2.12;1.7.0!librarymanagement-ivy_2.12.jar (653ms)[0m
+2022.07.23 15:20:15 ERROR downloading https://repo1.maven.org/maven2/org/scala-sbt/util-position_2.12/1.7.1/util-position_2.12-1.7.1.jar ...[0m
+2022.07.23 15:20:15 ERROR 	[SUCCESSFUL ] org.scala-sbt#zinc-compile_2.12;1.7.1!zinc-compile_2.12.jar (509ms)[0m
+2022.07.23 15:20:15 ERROR downloading https://repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.12.16/scala-reflect-2.12.16.jar ...[0m
+2022.07.23 15:20:15 ERROR 	[SUCCESSFUL ] org.scala-sbt#util-relation_2.12;1.7.1!util-relation_2.12.jar (498ms)[0m
+2022.07.23 15:20:15 ERROR downloading https://repo1.maven.org/maven2/org/scala-sbt/completion_2.12/1.7.1/completion_2.12-1.7.1.jar ...[0m
+2022.07.23 15:20:15 ERROR 	[SUCCESSFUL ] org.scala-sbt#librarymanagement-core_2.12;1.7.0!librarymanagement-core_2.12.jar (1078ms)[0m
+2022.07.23 15:20:15 ERROR downloading https://repo1.maven.org/maven2/org/scala-sbt/task-system_2.12/1.7.1/task-system_2.12-1.7.1.jar ...[0m
+2022.07.23 15:20:15 ERROR 	[SUCCESSFUL ] org.scala-sbt#compiler-interface;1.7.1!compiler-interface.jar (795ms)[0m
+2022.07.23 15:20:15 ERROR downloading https://repo1.maven.org/maven2/org/scala-sbt/tasks_2.12/1.7.1/tasks_2.12-1.7.1.jar ...[0m
+2022.07.23 15:20:16 ERROR 	[SUCCESSFUL ] org.scala-sbt#util-position_2.12;1.7.1!util-position_2.12.jar (521ms)[0m
+2022.07.23 15:20:16 ERROR downloading https://repo1.maven.org/maven2/org/scala-sbt/testing_2.12/1.7.1/testing_2.12-1.7.1.jar ...[0m
+2022.07.23 15:20:16 ERROR 	[SUCCESSFUL ] org.scala-sbt#completion_2.12;1.7.1!completion_2.12.jar (645ms)[0m
+2022.07.23 15:20:16 ERROR downloading https://repo1.maven.org/maven2/org/scala-sbt/util-tracking_2.12/1.7.1/util-tracking_2.12-1.7.1.jar ...[0m
+2022.07.23 15:20:16 ERROR 	[SUCCESSFUL ] org.scala-sbt#task-system_2.12;1.7.1!task-system_2.12.jar (566ms)[0m
+2022.07.23 15:20:16 ERROR downloading https://repo1.maven.org/maven2/org/scala-sbt/zinc-classpath_2.12/1.7.1/zinc-classpath_2.12-1.7.1.jar ...[0m
+2022.07.23 15:20:16 ERROR 	[SUCCESSFUL ] org.scala-sbt#tasks_2.12;1.7.1!tasks_2.12.jar (712ms)[0m
+2022.07.23 15:20:16 ERROR downloading https://repo1.maven.org/maven2/org/scala-sbt/zinc-apiinfo_2.12/1.7.1/zinc-apiinfo_2.12-1.7.1.jar ...[0m
+2022.07.23 15:20:16 ERROR 	[SUCCESSFUL ] org.scala-sbt#testing_2.12;1.7.1!testing_2.12.jar (546ms)[0m
+2022.07.23 15:20:16 ERROR downloading https://repo1.maven.org/maven2/org/scala-sbt/zinc_2.12/1.7.1/zinc_2.12-1.7.1.jar ...[0m
+2022.07.23 15:20:16 ERROR 	[SUCCESSFUL ] org.scala-sbt#util-tracking_2.12;1.7.1!util-tracking_2.12.jar (494ms)[0m
+2022.07.23 15:20:16 ERROR downloading https://repo1.maven.org/maven2/org/scala-sbt/util-control_2.12/1.7.1/util-control_2.12-1.7.1.jar ...[0m
+2022.07.23 15:20:16 ERROR 	[SUCCESSFUL ] org.scala-sbt#zinc-classpath_2.12;1.7.1!zinc-classpath_2.12.jar (550ms)[0m
+2022.07.23 15:20:16 ERROR downloading https://repo1.maven.org/maven2/org/scala-sbt/util-interface/1.7.1/util-interface-1.7.1.jar ...[0m
+2022.07.23 15:20:17 ERROR 	[SUCCESSFUL ] org.scala-lang#scala-reflect;2.12.16!scala-reflect.jar (1538ms)[0m
+2022.07.23 15:20:17 ERROR downloading https://repo1.maven.org/maven2/org/scala-sbt/core-macros_2.12/1.7.1/core-macros_2.12-1.7.1.jar ...[0m
+2022.07.23 15:20:17 ERROR 	[SUCCESSFUL ] org.scala-sbt#zinc_2.12;1.7.1!zinc_2.12.jar (524ms)[0m
+2022.07.23 15:20:17 ERROR downloading https://repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.12.16/scala-compiler-2.12.16.jar ...[0m
+2022.07.23 15:20:17 ERROR 	[SUCCESSFUL ] org.scala-sbt#util-control_2.12;1.7.1!util-control_2.12.jar (490ms)[0m
+2022.07.23 15:20:17 ERROR downloading https://repo1.maven.org/maven2/com/swoval/file-tree-views/2.1.9/file-tree-views-2.1.9.jar ...[0m
+2022.07.23 15:20:17 ERROR 	[SUCCESSFUL ] org.scala-sbt#util-interface;1.7.1!util-interface.jar (502ms)[0m
+2022.07.23 15:20:17 ERROR downloading https://repo1.maven.org/maven2/net/java/dev/jna/jna/5.12.0/jna-5.12.0.jar ...[0m
+2022.07.23 15:20:17 ERROR 	[SUCCESSFUL ] org.scala-sbt#zinc-apiinfo_2.12;1.7.1!zinc-apiinfo_2.12.jar (889ms)[0m
+2022.07.23 15:20:17 ERROR downloading https://repo1.maven.org/maven2/net/java/dev/jna/jna-platform/5.12.0/jna-platform-5.12.0.jar ...[0m
+2022.07.23 15:20:17 ERROR 	[SUCCESSFUL ] org.scala-sbt#core-macros_2.12;1.7.1!core-macros_2.12.jar (522ms)[0m
+2022.07.23 15:20:17 ERROR downloading https://repo1.maven.org/maven2/org/scala-sbt/util-cache_2.12/1.7.1/util-cache_2.12-1.7.1.jar ...[0m
+2022.07.23 15:20:17 ERROR 	[SUCCESSFUL ] com.swoval#file-tree-views;2.1.9!file-tree-views.jar (569ms)[0m
+2022.07.23 15:20:17 ERROR downloading https://repo1.maven.org/maven2/org/scala-sbt/test-agent/1.7.1/test-agent-1.7.1.jar ...[0m
+2022.07.23 15:20:18 ERROR 	[SUCCESSFUL ] org.apache.logging.log4j#log4j-core;2.17.1!log4j-core.jar (3608ms)[0m
+2022.07.23 15:20:18 ERROR downloading https://repo1.maven.org/maven2/org/scala-sbt/compiler-bridge_2.12/1.7.1/compiler-bridge_2.12-1.7.1.jar ...[0m
+2022.07.23 15:20:18 ERROR 	[SUCCESSFUL ] org.scala-sbt#test-agent;1.7.1!test-agent.jar (501ms)[0m
+2022.07.23 15:20:18 ERROR downloading https://repo1.maven.org/maven2/org/scala-sbt/zinc-classfile_2.12/1.7.1/zinc-classfile_2.12-1.7.1.jar ...[0m
+2022.07.23 15:20:18 ERROR 	[SUCCESSFUL ] org.scala-sbt#util-cache_2.12;1.7.1!util-cache_2.12.jar (825ms)[0m
+2022.07.23 15:20:18 ERROR downloading https://repo1.maven.org/maven2/com/eed3si9n/gigahorse-apache-http_2.12/0.7.0/gigahorse-apache-http_2.12-0.7.0.jar ...[0m
+2022.07.23 15:20:18 ERROR 	[SUCCESSFUL ] io.get-coursier#lm-coursier-shaded_2.12;2.0.10!lm-coursier-shaded_2.12.jar (4698ms)[0m
+2022.07.23 15:20:18 ERROR downloading https://repo1.maven.org/maven2/com/eed3si9n/gigahorse-core_2.12/0.7.0/gigahorse-core_2.12-0.7.0.jar ...[0m
+2022.07.23 15:20:18 ERROR 	[SUCCESSFUL ] org.scala-sbt#zinc-classfile_2.12;1.7.1!zinc-classfile_2.12.jar (513ms)[0m
+2022.07.23 15:20:18 ERROR downloading https://repo1.maven.org/maven2/com/eed3si9n/shaded-apache-httpasyncclient/0.7.0/shaded-apache-httpasyncclient-0.7.0.jar ...[0m
+2022.07.23 15:20:18 ERROR 	[SUCCESSFUL ] com.eed3si9n#gigahorse-apache-http_2.12;0.7.0!gigahorse-apache-http_2.12.jar (520ms)[0m
+2022.07.23 15:20:18 ERROR downloading https://repo1.maven.org/maven2/com/typesafe/ssl-config-core_2.12/0.6.1/ssl-config-core_2.12-0.6.1.jar ...[0m
+2022.07.23 15:20:18 ERROR 	[SUCCESSFUL ] org.scala-sbt#compiler-bridge_2.12;1.7.1!compiler-bridge_2.12.jar (913ms)[0m
+2022.07.23 15:20:18 ERROR downloading https://repo1.maven.org/maven2/org/reactivestreams/reactive-streams/1.0.3/reactive-streams-1.0.3.jar ...[0m
+2022.07.23 15:20:20 ERROR 	[SUCCESSFUL ] net.java.dev.jna#jna;5.12.0!jna.jar (1888ms)[0m
+2022.07.23 15:20:20 ERROR downloading https://repo1.maven.org/maven2/org/slf4j/slf4j-api/1.7.28/slf4j-api-1.7.28.jar ...[0m
+2022.07.23 15:20:20 ERROR 	[SUCCESSFUL ] com.eed3si9n#gigahorse-core_2.12;0.7.0!gigahorse-core_2.12.jar (577ms)[0m
+2022.07.23 15:20:20 ERROR downloading https://repo1.maven.org/maven2/com/typesafe/config/1.4.2/config-1.4.2.jar ...[0m
+2022.07.23 15:20:20 ERROR 	[SUCCESSFUL ] org.reactivestreams#reactive-streams;1.0.3!reactive-streams.jar (520ms)[0m
+2022.07.23 15:20:20 ERROR downloading https://repo1.maven.org/maven2/org/scala-sbt/zinc-core_2.12/1.7.1/zinc-core_2.12-1.7.1.jar ...[0m
+2022.07.23 15:20:20 ERROR 	[SUCCESSFUL ] com.typesafe#ssl-config-core_2.12;0.6.1!ssl-config-core_2.12.jar(bundle) (583ms)[0m
+2022.07.23 15:20:20 ERROR downloading https://repo1.maven.org/maven2/org/scala-sbt/zinc-persist_2.12/1.7.1/zinc-persist_2.12-1.7.1.jar ...[0m
+2022.07.23 15:20:20 ERROR 	[SUCCESSFUL ] org.slf4j#slf4j-api;1.7.28!slf4j-api.jar (526ms)[0m
+2022.07.23 15:20:20 ERROR downloading https://repo1.maven.org/maven2/org/scala-sbt/zinc-compile-core_2.12/1.7.1/zinc-compile-core_2.12-1.7.1.jar ...[0m
+2022.07.23 15:20:20 ERROR 	[SUCCESSFUL ] org.scala-sbt#main_2.12;1.7.1!main_2.12.jar (7382ms)[0m
+2022.07.23 15:20:20 ERROR 	[SUCCESSFUL ] com.eed3si9n#shaded-apache-httpasyncclient;0.7.0!shaded-apache-httpasyncclient.jar (1084ms)[0m
+2022.07.23 15:20:20 ERROR downloading https://repo1.maven.org/maven2/org/scala-sbt/zinc-persist-core-assembly/1.7.1/zinc-persist-core-assembly-1.7.1.jar ...[0m
+2022.07.23 15:20:20 ERROR downloading https://repo1.maven.org/maven2/org/scala-sbt/protocol_2.12/1.7.1/protocol_2.12-1.7.1.jar ...[0m
+2022.07.23 15:20:20 ERROR 	[SUCCESSFUL ] com.typesafe#config;1.4.2!config.jar(bundle) (646ms)[0m
+2022.07.23 15:20:20 ERROR downloading https://repo1.maven.org/maven2/org/scala-sbt/ipcsocket/ipcsocket/1.5.0/ipcsocket-1.5.0.jar ...[0m
+2022.07.23 15:20:20 ERROR 	[SUCCESSFUL ] org.scala-sbt#zinc-persist_2.12;1.7.1!zinc-persist_2.12.jar (594ms)[0m
+2022.07.23 15:20:20 ERROR downloading https://repo1.maven.org/maven2/org/scala-lang/modules/scala-collection-compat_2.12/2.6.0/scala-collection-compat_2.12-2.6.0.jar ...[0m
+2022.07.23 15:20:21 ERROR 	[SUCCESSFUL ] org.scala-sbt#zinc-compile-core_2.12;1.7.1!zinc-compile-core_2.12.jar (686ms)[0m
+2022.07.23 15:20:21 ERROR 	[SUCCESSFUL ] org.scala-sbt.ipcsocket#ipcsocket;1.5.0!ipcsocket.jar (571ms)[0m
+2022.07.23 15:20:21 ERROR 	[SUCCESSFUL ] org.scala-lang#scala-compiler;2.12.16!scala-compiler.jar (3531ms)[0m
+2022.07.23 15:20:21 ERROR 	[SUCCESSFUL ] org.scala-lang.modules#scala-collection-compat_2.12;2.6.0!scala-collection-compat_2.12.jar (591ms)[0m
+2022.07.23 15:20:21 ERROR 	[SUCCESSFUL ] org.scala-sbt#protocol_2.12;1.7.1!protocol_2.12.jar (805ms)[0m
+2022.07.23 15:20:21 ERROR 	[SUCCESSFUL ] org.scala-sbt#zinc-core_2.12;1.7.1!zinc-core_2.12.jar (1312ms)[0m
+2022.07.23 15:20:21 ERROR 	[SUCCESSFUL ] net.java.dev.jna#jna-platform;5.12.0!jna-platform.jar (3900ms)[0m
+2022.07.23 15:20:25 ERROR 	[SUCCESSFUL ] org.scala-sbt#zinc-persist-core-assembly;1.7.1!zinc-persist-core-assembly.jar (4833ms)[0m
+2022.07.23 15:20:25 ERROR :: retrieving :: org.scala-sbt#boot-app[0m
+2022.07.23 15:20:25 ERROR 	confs: [default][0m
+2022.07.23 15:20:25 ERROR 	81 artifacts copied, 0 already retrieved[0m
+2022.07.23 15:20:25 ERROR [info] [launcher] getting Scala 2.12.16 (for sbt)...[0m
+2022.07.23 15:20:25 ERROR :: retrieving :: org.scala-sbt#boot-scala[0m
+2022.07.23 15:20:25 ERROR 	confs: [default][0m
+2022.07.23 15:20:25 ERROR 	5 artifacts copied, 0 already retrieved[0m
+2022.07.23 15:20:26 INFO  [info] welcome to sbt 1.7.1 (Oracle Corporation Java 11.0.15)[0m
+2022.07.23 15:20:26 WARN  no build target for: /home/gumuncle/source/raytracing.github.io/src/InOneWeekend/scala/oneweekend/src/main/scala/example/Hello.scala[0m
+2022.07.23 15:20:28 INFO  [info] loading settings for project oneweekend-build-build from metals.sbt ...[0m
+2022.07.23 15:20:28 INFO  [info] loading project definition from /home/gumuncle/source/raytracing.github.io/src/InOneWeekend/scala/oneweekend/project/project[0m
+2022.07.23 15:20:30 INFO  [info] loading settings for project oneweekend-build from metals.sbt ...[0m
+2022.07.23 15:20:30 INFO  [info] loading project definition from /home/gumuncle/source/raytracing.github.io/src/InOneWeekend/scala/oneweekend/project[0m
+2022.07.23 15:20:40 INFO  [success] Generated .bloop/oneweekend-build.json[0m
+2022.07.23 15:20:40 INFO  [info] compiling 1 Scala source to /home/gumuncle/source/raytracing.github.io/src/InOneWeekend/scala/oneweekend/project/target/scala-2.12/sbt-1.0/classes ...[0m
+2022.07.23 15:20:40 INFO  [info] Non-compiled module 'compiler-bridge_2.12' for Scala 2.12.16. Compiling...[0m
+2022.07.23 15:20:46 INFO  [info]   Compilation completed in 6.402s.[0m
+2022.07.23 15:20:46 INFO  [info] done compiling[0m
+2022.07.23 15:20:46 INFO  [success] Total time: 17 s, completed 2022/07/23 15:20:47[0m
+2022.07.23 15:20:48 INFO  [info] loading settings for project root from build.sbt ...[0m
+2022.07.23 15:20:48 INFO  [info] set current project to oneweekend (in build file:/home/gumuncle/source/raytracing.github.io/src/InOneWeekend/scala/oneweekend/)[0m
+2022.07.23 15:20:48 INFO  [success] Generated .bloop/root.json[0m
+2022.07.23 15:20:48 INFO  [success] Generated .bloop/root-test.json[0m
+2022.07.23 15:20:48 INFO  [success] Total time: 0 s, completed 2022/07/23 15:20:48[0m
+2022.07.23 15:20:49 INFO  time: ran 'sbt bloopInstall' in 1m36s[0m
+2022.07.23 15:20:49 INFO  Attempting to connect to the build server...[0m
+2022.07.23 15:20:49 INFO  Bloop uses /usr/lib/jvm/java-18-openjdk/ defined at /home/gumuncle/.bloop/bloop.json[0m
+2022.07.23 15:20:49 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/gumuncle/source/raytracing.github.io/src/InOneWeekend/scala/oneweekend/.metals/bsp.trace.json or /home/gumuncle/.cache/metals/bsp.trace.json[0m
+2022.07.23 15:20:50 WARN  no build target for: /home/gumuncle/source/raytracing.github.io/src/InOneWeekend/scala/oneweekend/build.sbt[0m
+2022.07.23 15:20:52 INFO  Attempting to connect to the build server...[0m
+2022.07.23 15:20:52 INFO  Bloop uses /usr/lib/jvm/java-18-openjdk/ defined at /home/gumuncle/.bloop/bloop.json[0m
+2022.07.23 15:20:52 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/gumuncle/source/raytracing.github.io/src/InOneWeekend/scala/oneweekend/project/.metals/bsp.trace.json or /home/gumuncle/.cache/metals/bsp.trace.json[0m
+2022.07.23 15:20:55 INFO  time: Connected to build server in 5.92s[0m
+2022.07.23 15:20:55 INFO  Connected to Build server: Bloop v1.5.2[0m
+2022.07.23 15:20:58 INFO  compiling root (1 scala source)[0m
+2022.07.23 15:20:59 WARN  Could not find java sources in /usr/lib/jvm/src.zip, /usr/lib/jvm/lib/src.zip, /usr/lib/jvm/default/src.zip, /usr/lib/jvm/default/lib/src.zip. Java symbols will not be available.[0m
+2022.07.23 15:21:01 INFO  time: compiled root in 2.83s[0m
+2022.07.23 15:21:01 WARN  Could not find java sources in /usr/lib/jvm/src.zip, /usr/lib/jvm/lib/src.zip, /usr/lib/jvm/default/src.zip, /usr/lib/jvm/default/lib/src.zip. Java symbols will not be available.[0m
+2022.07.23 15:21:01 INFO  time: indexed workspace in 6.58s[0m
+2022.07.23 15:21:03 INFO  compiling root-test (1 scala source)[0m
+2022.07.23 15:21:03 INFO  time: compiled root-test in 2ms[0m
+2022.07.23 15:21:06 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/gumuncle/source/raytracing.github.io/src/InOneWeekend/scala/oneweekend/.metals/dap-server.trace.json or /home/gumuncle/.cache/metals/dap-server.trace.json[0m
+2022.07.23 15:21:06 INFO  tracing is disabled for protocol dap-client, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/gumuncle/source/raytracing.github.io/src/InOneWeekend/scala/oneweekend/.metals/dap-client.trace.json or /home/gumuncle/.cache/metals/dap-client.trace.json[0m
+2022.07.23 15:21:07 INFO  Starting debug proxy for [example.Hello][0m
+2022.07.23 15:21:07 INFO  Trying to attach to remote debuggee VM localhost:43883 .[0m
+2022.07.23 15:21:07 INFO  Attaching to debuggee VM succeeded.[0m
+2022.07.23 15:21:07 WARN  [Warn] The debugger and the debuggee are running in different versions of JVMs. You could see wrong source mapping results.
+Debugger JVM version: 18.0.1.1
+Debuggee JVM version: 11.0.15[0m
+2022.07.23 15:21:07 INFO  Canceling debug proxy for [example.Hello][0m
+2022.07.23 15:21:07 INFO  Closing debug server tcp://0.0.0.0:44797[0m
+7月 23, 2022 3:21:22 午後 org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+警告: Unmatched cancel notification for request id 69
+7月 23, 2022 3:21:44 午後 org.eclipse.lsp4j.jsonrpc.RemoteEndpoint fallbackResponseError
+重大: Internal error: java.lang.StringIndexOutOfBoundsException: begin 67, end 77, length 71
+java.util.concurrent.CompletionException: java.lang.StringIndexOutOfBoundsException: begin 67, end 77, length 71
+	at java.base/java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:331)
+	at java.base/java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:346)
+	at java.base/java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:704)
+	at java.base/java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:506)
+	at java.base/java.util.concurrent.CompletableFuture.completeExceptionally(CompletableFuture.java:2088)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$future$1(CancelTokens.scala:40)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$future$1$adapted(CancelTokens.scala:38)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:484)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Caused by: java.lang.StringIndexOutOfBoundsException: begin 67, end 77, length 71
+	at java.base/java.lang.String.checkBoundsBeginEnd(String.java:3319)
+	at java.base/java.lang.String.substring(String.java:1874)
+	at scala.meta.internal.metals.codeactions.FlatMapToForComprehensionCodeAction.getIndentForPos(FlatMapToForComprehensionCodeAction.scala:577)
+	at scala.meta.internal.metals.codeactions.FlatMapToForComprehensionCodeAction.$anonfun$contribute$4(FlatMapToForComprehensionCodeAction.scala:52)
+	at scala.Option.map(Option.scala:242)
+	at scala.meta.internal.metals.codeactions.FlatMapToForComprehensionCodeAction.$anonfun$contribute$3(FlatMapToForComprehensionCodeAction.scala:48)
+	at scala.Option.flatMap(Option.scala:283)
+	at scala.meta.internal.metals.codeactions.FlatMapToForComprehensionCodeAction.$anonfun$contribute$2(FlatMapToForComprehensionCodeAction.scala:47)
+	at scala.Option.flatMap(Option.scala:283)
+	at scala.meta.internal.metals.codeactions.FlatMapToForComprehensionCodeAction.$anonfun$contribute$1(FlatMapToForComprehensionCodeAction.scala:46)
+	at scala.concurrent.Future$.$anonfun$apply$1(Future.scala:678)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	... 3 more
+
+2022.07.23 15:21:54 INFO  compiling root (1 scala source)[0m
+2022.07.23 15:21:54 INFO  time: compiled root in 0.35s[0m
+2022.07.23 15:22:08 INFO  compiling root (1 scala source)[0m
+2022.07.23 15:22:08 INFO  time: compiled root in 0.61s[0m
+2022.07.23 15:22:28 INFO  compiling root (1 scala source)[0m
+2022.07.23 15:22:28 INFO  time: compiled root in 0.49s[0m
+2022.07.23 15:22:32 INFO  Deduplicating compilation of root from bsp client 'Metals 0.11.7' (since 1m 43.376s)[0m
+2022.07.23 15:22:32 INFO  compiling root-test (1 scala source)[0m
+2022.07.23 15:22:32 INFO  time: compiled root-test in 0.16s[0m
+2022.07.23 15:22:33 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/gumuncle/source/raytracing.github.io/src/InOneWeekend/scala/oneweekend/.metals/dap-server.trace.json or /home/gumuncle/.cache/metals/dap-server.trace.json[0m
+2022.07.23 15:22:33 INFO  tracing is disabled for protocol dap-client, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/gumuncle/source/raytracing.github.io/src/InOneWeekend/scala/oneweekend/.metals/dap-client.trace.json or /home/gumuncle/.cache/metals/dap-client.trace.json[0m
+2022.07.23 15:22:33 INFO  Starting debug proxy for [oneweekend.OneWeekEnd][0m
+2022.07.23 15:22:32 INFO  Trying to attach to remote debuggee VM localhost:39863 .[0m
+2022.07.23 15:22:32 INFO  Attaching to debuggee VM succeeded.[0m
+2022.07.23 15:22:32 WARN  [Warn] The debugger and the debuggee are running in different versions of JVMs. You could see wrong source mapping results.
+Debugger JVM version: 18.0.1.1
+Debuggee JVM version: 11.0.15[0m
+2022.07.23 15:22:34 INFO  Closing debug server tcp://0.0.0.0:35385[0m
+2022.07.23 15:22:35 INFO  Canceling debug proxy for [oneweekend.OneWeekEnd][0m
+2022.07.23 15:35:39 INFO  compiling root (1 scala source)[0m
+2022.07.23 15:35:39 INFO  time: compiled root in 0.49s[0m
+2022.07.23 15:35:47 INFO  Deduplicating compilation of root from bsp client 'Metals 0.11.7' (since 14m 57.576s)[0m
+2022.07.23 15:35:47 INFO  compiling root-test (1 scala source)[0m
+2022.07.23 15:35:47 INFO  time: compiled root-test in 84ms[0m
+2022.07.23 15:35:47 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/gumuncle/source/raytracing.github.io/src/InOneWeekend/scala/oneweekend/.metals/dap-server.trace.json or /home/gumuncle/.cache/metals/dap-server.trace.json[0m
+2022.07.23 15:35:47 INFO  tracing is disabled for protocol dap-client, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/gumuncle/source/raytracing.github.io/src/InOneWeekend/scala/oneweekend/.metals/dap-client.trace.json or /home/gumuncle/.cache/metals/dap-client.trace.json[0m
+2022.07.23 15:35:47 INFO  Starting debug proxy for [oneweekend.OneWeekEnd][0m
+2022.07.23 15:35:47 INFO  Trying to attach to remote debuggee VM localhost:48717 .[0m
+2022.07.23 15:35:47 INFO  Attaching to debuggee VM succeeded.[0m
+2022.07.23 15:35:47 WARN  [Warn] The debugger and the debuggee are running in different versions of JVMs. You could see wrong source mapping results.
+Debugger JVM version: 18.0.1.1
+Debuggee JVM version: 11.0.15[0m
+2022.07.23 15:35:47 ERROR [0m
+2022.07.23 15:35:47 ERROR Scanlines remaining: 255 [0m
+2022.07.23 15:35:47 ERROR [0m
+2022.07.23 15:35:47 ERROR Scanlines remaining: 254 [0m
+2022.07.23 15:35:47 ERROR [0m
+2022.07.23 15:35:47 ERROR Scanlines remaining: 253 [0m
+2022.07.23 15:35:47 ERROR [0m
+2022.07.23 15:35:47 ERROR Scanlines remaining: 252 [0m
+2022.07.23 15:35:47 ERROR [0m
+2022.07.23 15:35:47 ERROR Scanlines remaining: 251 [0m
+2022.07.23 15:35:47 ERROR [0m
+2022.07.23 15:35:47 ERROR Scanlines remaining: 250 [0m
+2022.07.23 15:35:47 ERROR [0m
+2022.07.23 15:35:47 ERROR Scanlines remaining: 249 [0m
+2022.07.23 15:35:47 ERROR [0m
+2022.07.23 15:35:47 ERROR Scanlines remaining: 248 [0m
+2022.07.23 15:35:47 ERROR [0m
+2022.07.23 15:35:47 ERROR Scanlines remaining: 247 [0m
+2022.07.23 15:35:47 ERROR [0m
+2022.07.23 15:35:47 ERROR Scanlines remaining: 246 [0m
+2022.07.23 15:35:47 ERROR [0m
+2022.07.23 15:35:47 ERROR Scanlines remaining: 245 [0m
+2022.07.23 15:35:47 ERROR [0m
+2022.07.23 15:35:47 ERROR Scanlines remaining: 244 [0m
+2022.07.23 15:35:47 ERROR [0m
+2022.07.23 15:35:47 ERROR Scanlines remaining: 243 [0m
+2022.07.23 15:35:47 ERROR [0m
+2022.07.23 15:35:47 ERROR Scanlines remaining: 242 [0m
+2022.07.23 15:35:47 ERROR [0m
+2022.07.23 15:35:47 ERROR Scanlines remaining: 241 [0m
+2022.07.23 15:35:47 ERROR [0m
+2022.07.23 15:35:47 ERROR Scanlines remaining: 240 [0m
+2022.07.23 15:35:47 ERROR [0m
+2022.07.23 15:35:47 ERROR Scanlines remaining: 239 [0m
+2022.07.23 15:35:47 ERROR [0m
+2022.07.23 15:35:47 ERROR Scanlines remaining: 238 [0m
+2022.07.23 15:35:47 ERROR [0m
+2022.07.23 15:35:47 ERROR Scanlines remaining: 237 [0m
+2022.07.23 15:35:47 ERROR [0m
+2022.07.23 15:35:47 ERROR Scanlines remaining: 236 [0m
+2022.07.23 15:35:47 ERROR [0m
+2022.07.23 15:35:47 ERROR Scanlines remaining: 235 [0m
+2022.07.23 15:35:47 ERROR [0m
+2022.07.23 15:35:47 ERROR Scanlines remaining: 234 [0m
+2022.07.23 15:35:47 ERROR [0m
+2022.07.23 15:35:47 ERROR Scanlines remaining: 233 [0m
+2022.07.23 15:35:47 ERROR [0m
+2022.07.23 15:35:47 ERROR Scanlines remaining: 232 [0m
+2022.07.23 15:35:47 ERROR [0m
+2022.07.23 15:35:47 ERROR Scanlines remaining: 231 [0m
+2022.07.23 15:35:47 ERROR [0m
+2022.07.23 15:35:47 ERROR Scanlines remaining: 230 [0m
+2022.07.23 15:35:47 ERROR [0m
+2022.07.23 15:35:47 ERROR Scanlines remaining: 229 [0m
+2022.07.23 15:35:47 ERROR [0m
+2022.07.23 15:35:47 ERROR Scanlines remaining: 228 [0m
+2022.07.23 15:35:47 ERROR [0m
+2022.07.23 15:35:47 ERROR Scanlines remaining: 227 [0m
+2022.07.23 15:35:47 ERROR [0m
+2022.07.23 15:35:47 ERROR Scanlines remaining: 226 [0m
+2022.07.23 15:35:47 ERROR [0m
+2022.07.23 15:35:47 ERROR Scanlines remaining: 225 [0m
+2022.07.23 15:35:47 ERROR [0m
+2022.07.23 15:35:47 ERROR Scanlines remaining: 224 [0m
+2022.07.23 15:35:47 ERROR [0m
+2022.07.23 15:35:47 ERROR Scanlines remaining: 223 [0m
+2022.07.23 15:35:47 ERROR [0m
+2022.07.23 15:35:47 ERROR Scanlines remaining: 222 [0m
+2022.07.23 15:35:47 ERROR [0m
+2022.07.23 15:35:47 ERROR Scanlines remaining: 221 [0m
+2022.07.23 15:35:47 ERROR [0m
+2022.07.23 15:35:47 ERROR Scanlines remaining: 220 [0m
+2022.07.23 15:35:47 ERROR [0m
+2022.07.23 15:35:47 ERROR Scanlines remaining: 219 [0m
+2022.07.23 15:35:47 ERROR [0m
+2022.07.23 15:35:47 ERROR Scanlines remaining: 218 [0m
+2022.07.23 15:35:47 ERROR [0m
+2022.07.23 15:35:47 ERROR Scanlines remaining: 217 [0m
+2022.07.23 15:35:47 ERROR [0m
+2022.07.23 15:35:47 ERROR Scanlines remaining: 216 [0m
+2022.07.23 15:35:47 ERROR [0m
+2022.07.23 15:35:47 ERROR Scanlines remaining: 215 [0m
+2022.07.23 15:35:47 ERROR [0m
+2022.07.23 15:35:47 ERROR Scanlines remaining: 214 [0m
+2022.07.23 15:35:47 ERROR [0m
+2022.07.23 15:35:47 ERROR Scanlines remaining: 213 [0m
+2022.07.23 15:35:47 ERROR [0m
+2022.07.23 15:35:47 ERROR Scanlines remaining: 212 [0m
+2022.07.23 15:35:47 ERROR [0m
+2022.07.23 15:35:47 ERROR Scanlines remaining: 211 [0m
+2022.07.23 15:35:47 ERROR [0m
+2022.07.23 15:35:47 ERROR Scanlines remaining: 210 [0m
+2022.07.23 15:35:47 ERROR [0m
+2022.07.23 15:35:47 ERROR Scanlines remaining: 209 [0m
+2022.07.23 15:35:47 ERROR [0m
+2022.07.23 15:35:47 ERROR Scanlines remaining: 208 [0m
+2022.07.23 15:35:47 ERROR [0m
+2022.07.23 15:35:47 ERROR Scanlines remaining: 207 [0m
+2022.07.23 15:35:47 ERROR [0m
+2022.07.23 15:35:47 ERROR Scanlines remaining: 206 [0m
+2022.07.23 15:35:47 ERROR [0m
+2022.07.23 15:35:47 ERROR Scanlines remaining: 205 [0m
+2022.07.23 15:35:47 ERROR [0m
+2022.07.23 15:35:47 ERROR Scanlines remaining: 204 [0m
+2022.07.23 15:35:47 ERROR [0m
+2022.07.23 15:35:47 ERROR Scanlines remaining: 203 [0m
+2022.07.23 15:35:47 ERROR [0m
+2022.07.23 15:35:47 ERROR Scanlines remaining: 202 [0m
+2022.07.23 15:35:47 ERROR [0m
+2022.07.23 15:35:47 ERROR Scanlines remaining: 201 [0m
+2022.07.23 15:35:48 ERROR [0m
+2022.07.23 15:35:48 ERROR Scanlines remaining: 200 [0m
+2022.07.23 15:35:48 ERROR [0m
+2022.07.23 15:35:48 ERROR Scanlines remaining: 199 [0m
+2022.07.23 15:35:48 ERROR [0m
+2022.07.23 15:35:48 ERROR Scanlines remaining: 198 [0m
+2022.07.23 15:35:48 ERROR [0m
+2022.07.23 15:35:48 ERROR Scanlines remaining: 197 [0m
+2022.07.23 15:35:48 ERROR [0m
+2022.07.23 15:35:48 ERROR Scanlines remaining: 196 [0m
+2022.07.23 15:35:48 ERROR [0m
+2022.07.23 15:35:48 ERROR Scanlines remaining: 195 [0m
+2022.07.23 15:35:48 ERROR [0m
+2022.07.23 15:35:48 ERROR Scanlines remaining: 194 [0m
+2022.07.23 15:35:48 ERROR [0m
+2022.07.23 15:35:48 ERROR Scanlines remaining: 193 [0m
+2022.07.23 15:35:48 ERROR [0m
+2022.07.23 15:35:48 ERROR Scanlines remaining: 192 [0m
+2022.07.23 15:35:48 ERROR [0m
+2022.07.23 15:35:48 ERROR Scanlines remaining: 191 [0m
+2022.07.23 15:35:48 ERROR [0m
+2022.07.23 15:35:48 ERROR Scanlines remaining: 190 [0m
+2022.07.23 15:35:48 ERROR [0m
+2022.07.23 15:35:48 ERROR Scanlines remaining: 189 [0m
+2022.07.23 15:35:48 ERROR [0m
+2022.07.23 15:35:48 ERROR Scanlines remaining: 188 [0m
+2022.07.23 15:35:48 ERROR [0m
+2022.07.23 15:35:48 ERROR Scanlines remaining: 187 [0m
+2022.07.23 15:35:48 ERROR [0m
+2022.07.23 15:35:48 ERROR Scanlines remaining: 186 [0m
+2022.07.23 15:35:48 ERROR [0m
+2022.07.23 15:35:48 ERROR Scanlines remaining: 185 [0m
+2022.07.23 15:35:48 ERROR [0m
+2022.07.23 15:35:48 ERROR Scanlines remaining: 184 [0m
+2022.07.23 15:35:48 ERROR [0m
+2022.07.23 15:35:48 ERROR Scanlines remaining: 183 [0m
+2022.07.23 15:35:48 ERROR [0m
+2022.07.23 15:35:48 ERROR Scanlines remaining: 182 [0m
+2022.07.23 15:35:48 ERROR [0m
+2022.07.23 15:35:48 ERROR Scanlines remaining: 181 [0m
+2022.07.23 15:35:48 ERROR [0m
+2022.07.23 15:35:48 ERROR Scanlines remaining: 180 [0m
+2022.07.23 15:35:48 ERROR [0m
+2022.07.23 15:35:48 ERROR Scanlines remaining: 179 [0m
+2022.07.23 15:35:48 ERROR [0m
+2022.07.23 15:35:48 ERROR Scanlines remaining: 178 [0m
+2022.07.23 15:35:48 ERROR [0m
+2022.07.23 15:35:48 ERROR Scanlines remaining: 177 [0m
+2022.07.23 15:35:48 ERROR [0m
+2022.07.23 15:35:48 ERROR Scanlines remaining: 176 [0m
+2022.07.23 15:35:48 ERROR [0m
+2022.07.23 15:35:48 ERROR Scanlines remaining: 175 [0m
+2022.07.23 15:35:48 ERROR [0m
+2022.07.23 15:35:48 ERROR Scanlines remaining: 174 [0m
+2022.07.23 15:35:48 ERROR [0m
+2022.07.23 15:35:48 ERROR Scanlines remaining: 173 [0m
+2022.07.23 15:35:48 ERROR [0m
+2022.07.23 15:35:48 ERROR Scanlines remaining: 172 [0m
+2022.07.23 15:35:48 ERROR [0m
+2022.07.23 15:35:48 ERROR Scanlines remaining: 171 [0m
+2022.07.23 15:35:48 ERROR [0m
+2022.07.23 15:35:48 ERROR Scanlines remaining: 170 [0m
+2022.07.23 15:35:48 ERROR [0m
+2022.07.23 15:35:48 ERROR Scanlines remaining: 169 [0m
+2022.07.23 15:35:48 ERROR [0m
+2022.07.23 15:35:48 ERROR Scanlines remaining: 168 [0m
+2022.07.23 15:35:48 ERROR [0m
+2022.07.23 15:35:48 ERROR Scanlines remaining: 167 [0m
+2022.07.23 15:35:48 ERROR [0m
+2022.07.23 15:35:48 ERROR Scanlines remaining: 166 [0m
+2022.07.23 15:35:48 ERROR [0m
+2022.07.23 15:35:48 ERROR Scanlines remaining: 165 [0m
+2022.07.23 15:35:48 ERROR [0m
+2022.07.23 15:35:48 ERROR Scanlines remaining: 164 [0m
+2022.07.23 15:35:48 ERROR [0m
+2022.07.23 15:35:48 ERROR Scanlines remaining: 163 [0m
+2022.07.23 15:35:48 ERROR [0m
+2022.07.23 15:35:48 ERROR Scanlines remaining: 162 [0m
+2022.07.23 15:35:48 ERROR [0m
+2022.07.23 15:35:48 ERROR Scanlines remaining: 161 [0m
+2022.07.23 15:35:48 ERROR [0m
+2022.07.23 15:35:48 ERROR Scanlines remaining: 160 [0m
+2022.07.23 15:35:48 ERROR [0m
+2022.07.23 15:35:48 ERROR Scanlines remaining: 159 [0m
+2022.07.23 15:35:48 ERROR [0m
+2022.07.23 15:35:48 ERROR Scanlines remaining: 158 [0m
+2022.07.23 15:35:48 ERROR [0m
+2022.07.23 15:35:48 ERROR Scanlines remaining: 157 [0m
+2022.07.23 15:35:48 ERROR [0m
+2022.07.23 15:35:48 ERROR Scanlines remaining: 156 [0m
+2022.07.23 15:35:48 ERROR [0m
+2022.07.23 15:35:48 ERROR Scanlines remaining: 155 [0m
+2022.07.23 15:35:48 ERROR [0m
+2022.07.23 15:35:48 ERROR Scanlines remaining: 154 [0m
+2022.07.23 15:35:48 ERROR [0m
+2022.07.23 15:35:48 ERROR Scanlines remaining: 153 [0m
+2022.07.23 15:35:48 ERROR [0m
+2022.07.23 15:35:48 ERROR Scanlines remaining: 152 [0m
+2022.07.23 15:35:48 ERROR [0m
+2022.07.23 15:35:48 ERROR Scanlines remaining: 151 [0m
+2022.07.23 15:35:48 ERROR [0m
+2022.07.23 15:35:48 ERROR Scanlines remaining: 150 [0m
+2022.07.23 15:35:48 ERROR [0m
+2022.07.23 15:35:48 ERROR Scanlines remaining: 149 [0m
+2022.07.23 15:35:48 ERROR [0m
+2022.07.23 15:35:48 ERROR Scanlines remaining: 148 [0m
+2022.07.23 15:35:48 ERROR [0m
+2022.07.23 15:35:48 ERROR Scanlines remaining: 147 [0m
+2022.07.23 15:35:48 ERROR [0m
+2022.07.23 15:35:48 ERROR Scanlines remaining: 146 [0m
+2022.07.23 15:35:48 ERROR [0m
+2022.07.23 15:35:48 ERROR Scanlines remaining: 145 [0m
+2022.07.23 15:35:48 ERROR [0m
+2022.07.23 15:35:48 ERROR Scanlines remaining: 144 [0m
+2022.07.23 15:35:48 ERROR [0m
+2022.07.23 15:35:48 ERROR Scanlines remaining: 143 [0m
+2022.07.23 15:35:48 ERROR [0m
+2022.07.23 15:35:48 ERROR Scanlines remaining: 142 [0m
+2022.07.23 15:35:48 ERROR [0m
+2022.07.23 15:35:48 ERROR Scanlines remaining: 141 [0m
+2022.07.23 15:35:48 ERROR [0m
+2022.07.23 15:35:48 ERROR Scanlines remaining: 140 [0m
+2022.07.23 15:35:48 ERROR [0m
+2022.07.23 15:35:48 ERROR Scanlines remaining: 139 [0m
+2022.07.23 15:35:48 ERROR [0m
+2022.07.23 15:35:48 ERROR Scanlines remaining: 138 [0m
+2022.07.23 15:35:48 ERROR [0m
+2022.07.23 15:35:48 ERROR Scanlines remaining: 137 [0m
+2022.07.23 15:35:48 ERROR [0m
+2022.07.23 15:35:48 ERROR Scanlines remaining: 136 [0m
+2022.07.23 15:35:48 ERROR [0m
+2022.07.23 15:35:48 ERROR Scanlines remaining: 135 [0m
+2022.07.23 15:35:48 ERROR [0m
+2022.07.23 15:35:48 ERROR Scanlines remaining: 134 [0m
+2022.07.23 15:35:48 ERROR [0m
+2022.07.23 15:35:48 ERROR Scanlines remaining: 133 [0m
+2022.07.23 15:35:48 ERROR [0m
+2022.07.23 15:35:48 ERROR Scanlines remaining: 132 [0m
+2022.07.23 15:35:48 ERROR [0m
+2022.07.23 15:35:48 ERROR Scanlines remaining: 131 [0m
+2022.07.23 15:35:48 ERROR [0m
+2022.07.23 15:35:48 ERROR Scanlines remaining: 130 [0m
+2022.07.23 15:35:48 ERROR [0m
+2022.07.23 15:35:48 ERROR Scanlines remaining: 129 [0m
+2022.07.23 15:35:48 ERROR [0m
+2022.07.23 15:35:48 ERROR Scanlines remaining: 128 [0m
+2022.07.23 15:35:48 ERROR [0m
+2022.07.23 15:35:48 ERROR Scanlines remaining: 127 [0m
+2022.07.23 15:35:48 ERROR [0m
+2022.07.23 15:35:48 ERROR Scanlines remaining: 126 [0m
+2022.07.23 15:35:48 ERROR [0m
+2022.07.23 15:35:48 ERROR Scanlines remaining: 125 [0m
+2022.07.23 15:35:48 ERROR [0m
+2022.07.23 15:35:48 ERROR Scanlines remaining: 124 [0m
+2022.07.23 15:35:48 ERROR [0m
+2022.07.23 15:35:48 ERROR Scanlines remaining: 123 [0m
+2022.07.23 15:35:48 ERROR [0m
+2022.07.23 15:35:48 ERROR Scanlines remaining: 122 [0m
+2022.07.23 15:35:48 ERROR [0m
+2022.07.23 15:35:48 ERROR Scanlines remaining: 121 [0m
+2022.07.23 15:35:48 ERROR [0m
+2022.07.23 15:35:48 ERROR Scanlines remaining: 120 [0m
+2022.07.23 15:35:48 ERROR [0m
+2022.07.23 15:35:48 ERROR Scanlines remaining: 119 [0m
+2022.07.23 15:35:48 ERROR [0m
+2022.07.23 15:35:48 ERROR Scanlines remaining: 118 [0m
+2022.07.23 15:35:48 ERROR [0m
+2022.07.23 15:35:48 ERROR Scanlines remaining: 117 [0m
+2022.07.23 15:35:48 ERROR [0m
+2022.07.23 15:35:48 ERROR Scanlines remaining: 116 [0m
+2022.07.23 15:35:48 ERROR [0m
+2022.07.23 15:35:48 ERROR Scanlines remaining: 115 [0m
+2022.07.23 15:35:48 ERROR [0m
+2022.07.23 15:35:48 ERROR Scanlines remaining: 114 [0m
+2022.07.23 15:35:48 ERROR [0m
+2022.07.23 15:35:48 ERROR Scanlines remaining: 113 [0m
+2022.07.23 15:35:48 ERROR [0m
+2022.07.23 15:35:48 ERROR Scanlines remaining: 112 [0m
+2022.07.23 15:35:48 ERROR [0m
+2022.07.23 15:35:48 ERROR Scanlines remaining: 111 [0m
+2022.07.23 15:35:48 ERROR [0m
+2022.07.23 15:35:48 ERROR Scanlines remaining: 110 [0m
+2022.07.23 15:35:48 ERROR [0m
+2022.07.23 15:35:48 ERROR Scanlines remaining: 109 [0m
+2022.07.23 15:35:48 ERROR [0m
+2022.07.23 15:35:48 ERROR Scanlines remaining: 108 [0m
+2022.07.23 15:35:48 ERROR [0m
+2022.07.23 15:35:48 ERROR Scanlines remaining: 107 [0m
+2022.07.23 15:35:48 ERROR [0m
+2022.07.23 15:35:48 ERROR Scanlines remaining: 106 [0m
+2022.07.23 15:35:48 ERROR [0m
+2022.07.23 15:35:48 ERROR Scanlines remaining: 105 [0m
+2022.07.23 15:35:48 ERROR [0m
+2022.07.23 15:35:48 ERROR Scanlines remaining: 104 [0m
+2022.07.23 15:35:48 ERROR [0m
+2022.07.23 15:35:48 ERROR Scanlines remaining: 103 [0m
+2022.07.23 15:35:48 ERROR [0m
+2022.07.23 15:35:48 ERROR Scanlines remaining: 102 [0m
+2022.07.23 15:35:48 ERROR [0m
+2022.07.23 15:35:48 ERROR Scanlines remaining: 101 [0m
+2022.07.23 15:35:48 ERROR [0m
+2022.07.23 15:35:48 ERROR Scanlines remaining: 100 [0m
+2022.07.23 15:35:48 ERROR [0m
+2022.07.23 15:35:48 ERROR Scanlines remaining: 99 [0m
+2022.07.23 15:35:48 ERROR [0m
+2022.07.23 15:35:48 ERROR Scanlines remaining: 98 [0m
+2022.07.23 15:35:48 ERROR [0m
+2022.07.23 15:35:48 ERROR Scanlines remaining: 97 [0m
+2022.07.23 15:35:48 ERROR [0m
+2022.07.23 15:35:48 ERROR Scanlines remaining: 96 [0m
+2022.07.23 15:35:48 ERROR [0m
+2022.07.23 15:35:48 ERROR Scanlines remaining: 95 [0m
+2022.07.23 15:35:48 ERROR [0m
+2022.07.23 15:35:48 ERROR Scanlines remaining: 94 [0m
+2022.07.23 15:35:48 ERROR [0m
+2022.07.23 15:35:48 ERROR Scanlines remaining: 93 [0m
+2022.07.23 15:35:48 ERROR [0m
+2022.07.23 15:35:48 ERROR Scanlines remaining: 92 [0m
+2022.07.23 15:35:48 ERROR [0m
+2022.07.23 15:35:48 ERROR Scanlines remaining: 91 [0m
+2022.07.23 15:35:48 ERROR [0m
+2022.07.23 15:35:48 ERROR Scanlines remaining: 90 [0m
+2022.07.23 15:35:48 ERROR [0m
+2022.07.23 15:35:48 ERROR Scanlines remaining: 89 [0m
+2022.07.23 15:35:48 ERROR [0m
+2022.07.23 15:35:48 ERROR Scanlines remaining: 88 [0m
+2022.07.23 15:35:48 ERROR [0m
+2022.07.23 15:35:48 ERROR Scanlines remaining: 87 [0m
+2022.07.23 15:35:48 ERROR [0m
+2022.07.23 15:35:48 ERROR Scanlines remaining: 86 [0m
+2022.07.23 15:35:48 ERROR [0m
+2022.07.23 15:35:48 ERROR Scanlines remaining: 85 [0m
+2022.07.23 15:35:48 ERROR [0m
+2022.07.23 15:35:48 ERROR Scanlines remaining: 84 [0m
+2022.07.23 15:35:48 ERROR [0m
+2022.07.23 15:35:48 ERROR Scanlines remaining: 83 [0m
+2022.07.23 15:35:48 ERROR [0m
+2022.07.23 15:35:48 ERROR Scanlines remaining: 82 [0m
+2022.07.23 15:35:48 ERROR [0m
+2022.07.23 15:35:48 ERROR Scanlines remaining: 81 [0m
+2022.07.23 15:35:48 ERROR [0m
+2022.07.23 15:35:48 ERROR Scanlines remaining: 80 [0m
+2022.07.23 15:35:48 ERROR [0m
+2022.07.23 15:35:48 ERROR Scanlines remaining: 79 [0m
+2022.07.23 15:35:48 ERROR [0m
+2022.07.23 15:35:48 ERROR Scanlines remaining: 78 [0m
+2022.07.23 15:35:48 ERROR [0m
+2022.07.23 15:35:48 ERROR Scanlines remaining: 77 [0m
+2022.07.23 15:35:48 ERROR [0m
+2022.07.23 15:35:48 ERROR Scanlines remaining: 76 [0m
+2022.07.23 15:35:48 ERROR [0m
+2022.07.23 15:35:48 ERROR Scanlines remaining: 75 [0m
+2022.07.23 15:35:48 ERROR [0m
+2022.07.23 15:35:48 ERROR Scanlines remaining: 74 [0m
+2022.07.23 15:35:48 ERROR [0m
+2022.07.23 15:35:48 ERROR Scanlines remaining: 73 [0m
+2022.07.23 15:35:48 ERROR [0m
+2022.07.23 15:35:48 ERROR Scanlines remaining: 72 [0m
+2022.07.23 15:35:48 ERROR [0m
+2022.07.23 15:35:48 ERROR Scanlines remaining: 71 [0m
+2022.07.23 15:35:48 ERROR [0m
+2022.07.23 15:35:48 ERROR Scanlines remaining: 70 [0m
+2022.07.23 15:35:48 ERROR [0m
+2022.07.23 15:35:48 ERROR Scanlines remaining: 69 [0m
+2022.07.23 15:35:48 ERROR [0m
+2022.07.23 15:35:48 ERROR Scanlines remaining: 68 [0m
+2022.07.23 15:35:48 ERROR [0m
+2022.07.23 15:35:48 ERROR Scanlines remaining: 67 [0m
+2022.07.23 15:35:48 ERROR [0m
+2022.07.23 15:35:48 ERROR Scanlines remaining: 66 [0m
+2022.07.23 15:35:48 ERROR [0m
+2022.07.23 15:35:48 ERROR Scanlines remaining: 65 [0m
+2022.07.23 15:35:48 ERROR [0m
+2022.07.23 15:35:48 ERROR Scanlines remaining: 64 [0m
+2022.07.23 15:35:48 ERROR [0m
+2022.07.23 15:35:48 ERROR Scanlines remaining: 63 [0m
+2022.07.23 15:35:48 ERROR [0m
+2022.07.23 15:35:48 ERROR Scanlines remaining: 62 [0m
+2022.07.23 15:35:48 ERROR [0m
+2022.07.23 15:35:48 ERROR Scanlines remaining: 61 [0m
+2022.07.23 15:35:48 ERROR [0m
+2022.07.23 15:35:48 ERROR Scanlines remaining: 60 [0m
+2022.07.23 15:35:48 ERROR [0m
+2022.07.23 15:35:48 ERROR Scanlines remaining: 59 [0m
+2022.07.23 15:35:48 ERROR [0m
+2022.07.23 15:35:48 ERROR Scanlines remaining: 58 [0m
+2022.07.23 15:35:48 ERROR [0m
+2022.07.23 15:35:48 ERROR Scanlines remaining: 57 [0m
+2022.07.23 15:35:48 ERROR [0m
+2022.07.23 15:35:48 ERROR Scanlines remaining: 56 [0m
+2022.07.23 15:35:48 ERROR [0m
+2022.07.23 15:35:48 ERROR Scanlines remaining: 55 [0m
+2022.07.23 15:35:48 ERROR [0m
+2022.07.23 15:35:48 ERROR Scanlines remaining: 54 [0m
+2022.07.23 15:35:48 ERROR [0m
+2022.07.23 15:35:48 ERROR Scanlines remaining: 53 [0m
+2022.07.23 15:35:48 ERROR [0m
+2022.07.23 15:35:48 ERROR Scanlines remaining: 52 [0m
+2022.07.23 15:35:48 ERROR [0m
+2022.07.23 15:35:48 ERROR Scanlines remaining: 51 [0m
+2022.07.23 15:35:48 ERROR [0m
+2022.07.23 15:35:48 ERROR Scanlines remaining: 50 [0m
+2022.07.23 15:35:48 ERROR [0m
+2022.07.23 15:35:48 ERROR Scanlines remaining: 49 [0m
+2022.07.23 15:35:48 ERROR [0m
+2022.07.23 15:35:48 ERROR Scanlines remaining: 48 [0m
+2022.07.23 15:35:48 ERROR [0m
+2022.07.23 15:35:48 ERROR Scanlines remaining: 47 [0m
+2022.07.23 15:35:48 ERROR [0m
+2022.07.23 15:35:48 ERROR Scanlines remaining: 46 [0m
+2022.07.23 15:35:48 ERROR [0m
+2022.07.23 15:35:48 ERROR Scanlines remaining: 45 [0m
+2022.07.23 15:35:48 ERROR [0m
+2022.07.23 15:35:48 ERROR Scanlines remaining: 44 [0m
+2022.07.23 15:35:48 ERROR [0m
+2022.07.23 15:35:48 ERROR Scanlines remaining: 43 [0m
+2022.07.23 15:35:48 ERROR [0m
+2022.07.23 15:35:48 ERROR Scanlines remaining: 42 [0m
+2022.07.23 15:35:48 ERROR [0m
+2022.07.23 15:35:48 ERROR Scanlines remaining: 41 [0m
+2022.07.23 15:35:48 ERROR [0m
+2022.07.23 15:35:48 ERROR Scanlines remaining: 40 [0m
+2022.07.23 15:35:48 ERROR [0m
+2022.07.23 15:35:48 ERROR Scanlines remaining: 39 [0m
+2022.07.23 15:35:48 ERROR [0m
+2022.07.23 15:35:48 ERROR Scanlines remaining: 38 [0m
+2022.07.23 15:35:48 ERROR [0m
+2022.07.23 15:35:48 ERROR Scanlines remaining: 37 [0m
+2022.07.23 15:35:48 ERROR [0m
+2022.07.23 15:35:48 ERROR Scanlines remaining: 36 [0m
+2022.07.23 15:35:48 ERROR [0m
+2022.07.23 15:35:48 ERROR Scanlines remaining: 35 [0m
+2022.07.23 15:35:48 ERROR [0m
+2022.07.23 15:35:48 ERROR Scanlines remaining: 34 [0m
+2022.07.23 15:35:48 ERROR [0m
+2022.07.23 15:35:48 ERROR Scanlines remaining: 33 [0m
+2022.07.23 15:35:48 ERROR [0m
+2022.07.23 15:35:48 ERROR Scanlines remaining: 32 [0m
+2022.07.23 15:35:48 ERROR [0m
+2022.07.23 15:35:48 ERROR Scanlines remaining: 31 [0m
+2022.07.23 15:35:48 ERROR [0m
+2022.07.23 15:35:48 ERROR Scanlines remaining: 30 [0m
+2022.07.23 15:35:48 ERROR [0m
+2022.07.23 15:35:48 ERROR Scanlines remaining: 29 [0m
+2022.07.23 15:35:48 ERROR [0m
+2022.07.23 15:35:48 ERROR Scanlines remaining: 28 [0m
+2022.07.23 15:35:48 ERROR [0m
+2022.07.23 15:35:48 ERROR Scanlines remaining: 27 [0m
+2022.07.23 15:35:48 ERROR [0m
+2022.07.23 15:35:48 ERROR Scanlines remaining: 26 [0m
+2022.07.23 15:35:48 ERROR [0m
+2022.07.23 15:35:48 ERROR Scanlines remaining: 25 [0m
+2022.07.23 15:35:48 ERROR [0m
+2022.07.23 15:35:48 ERROR Scanlines remaining: 24 [0m
+2022.07.23 15:35:48 ERROR [0m
+2022.07.23 15:35:48 ERROR Scanlines remaining: 23 [0m
+2022.07.23 15:35:48 ERROR [0m
+2022.07.23 15:35:48 ERROR Scanlines remaining: 22 [0m
+2022.07.23 15:35:48 ERROR [0m
+2022.07.23 15:35:48 ERROR Scanlines remaining: 21 [0m
+2022.07.23 15:35:48 ERROR [0m
+2022.07.23 15:35:48 ERROR Scanlines remaining: 20 [0m
+2022.07.23 15:35:48 ERROR [0m
+2022.07.23 15:35:48 ERROR Scanlines remaining: 19 [0m
+2022.07.23 15:35:48 ERROR [0m
+2022.07.23 15:35:48 ERROR Scanlines remaining: 18 [0m
+2022.07.23 15:35:48 ERROR [0m
+2022.07.23 15:35:48 ERROR Scanlines remaining: 17 [0m
+2022.07.23 15:35:48 ERROR [0m
+2022.07.23 15:35:48 ERROR Scanlines remaining: 16 [0m
+2022.07.23 15:35:48 ERROR [0m
+2022.07.23 15:35:48 ERROR Scanlines remaining: 15 [0m
+2022.07.23 15:35:48 ERROR [0m
+2022.07.23 15:35:48 ERROR Scanlines remaining: 14 [0m
+2022.07.23 15:35:48 ERROR [0m
+2022.07.23 15:35:48 ERROR Scanlines remaining: 13 [0m
+2022.07.23 15:35:48 ERROR [0m
+2022.07.23 15:35:48 ERROR Scanlines remaining: 12 [0m
+2022.07.23 15:35:48 ERROR [0m
+2022.07.23 15:35:48 ERROR Scanlines remaining: 11 [0m
+2022.07.23 15:35:48 ERROR [0m
+2022.07.23 15:35:48 ERROR Scanlines remaining: 10 [0m
+2022.07.23 15:35:48 ERROR [0m
+2022.07.23 15:35:48 ERROR Scanlines remaining: 9 [0m
+2022.07.23 15:35:48 ERROR [0m
+2022.07.23 15:35:48 ERROR Scanlines remaining: 8 [0m
+2022.07.23 15:35:48 ERROR [0m
+2022.07.23 15:35:48 ERROR Scanlines remaining: 7 [0m
+2022.07.23 15:35:48 ERROR [0m
+2022.07.23 15:35:48 ERROR Scanlines remaining: 6 [0m
+2022.07.23 15:35:48 ERROR [0m
+2022.07.23 15:35:48 ERROR Scanlines remaining: 5 [0m
+2022.07.23 15:35:48 ERROR [0m
+2022.07.23 15:35:48 ERROR Scanlines remaining: 4 [0m
+2022.07.23 15:35:48 ERROR [0m
+2022.07.23 15:35:48 ERROR Scanlines remaining: 3 [0m
+2022.07.23 15:35:48 ERROR [0m
+2022.07.23 15:35:48 ERROR Scanlines remaining: 2 [0m
+2022.07.23 15:35:48 ERROR [0m
+2022.07.23 15:35:48 ERROR Scanlines remaining: 1 [0m
+2022.07.23 15:35:48 ERROR [0m
+2022.07.23 15:35:48 ERROR Scanlines remaining: 0 [0m
+2022.07.23 15:35:48 INFO  Closing debug server tcp://0.0.0.0:39731[0m
+2022.07.23 15:35:48 INFO  Canceling debug proxy for [oneweekend.OneWeekEnd][0m
+2022.07.23 15:36:38 INFO  compiling root (1 scala source)[0m
+2022.07.23 15:36:38 INFO  time: compiled root in 0.48s[0m
+2022.07.23 15:43:41 INFO  Deduplicating compilation of root from bsp client 'Metals 0.11.7' (since 22m 51.804s)[0m
+2022.07.23 15:43:41 INFO  compiling root-test (1 scala source)[0m
+2022.07.23 15:43:41 INFO  time: compiled root-test in 88ms[0m
+2022.07.23 15:43:41 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/gumuncle/source/raytracing.github.io/src/InOneWeekend/scala/oneweekend/.metals/dap-server.trace.json or /home/gumuncle/.cache/metals/dap-server.trace.json[0m
+2022.07.23 15:43:41 INFO  tracing is disabled for protocol dap-client, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/gumuncle/source/raytracing.github.io/src/InOneWeekend/scala/oneweekend/.metals/dap-client.trace.json or /home/gumuncle/.cache/metals/dap-client.trace.json[0m
+2022.07.23 15:43:41 INFO  Starting debug proxy for [oneweekend.OneWeekEnd][0m
+2022.07.23 15:43:41 INFO  Trying to attach to remote debuggee VM localhost:57769 .[0m
+2022.07.23 15:43:41 INFO  Attaching to debuggee VM succeeded.[0m
+2022.07.23 15:43:41 WARN  [Warn] The debugger and the debuggee are running in different versions of JVMs. You could see wrong source mapping results.
+Debugger JVM version: 18.0.1.1
+Debuggee JVM version: 11.0.15[0m
+2022.07.23 15:43:41 ERROR [0m
+2022.07.23 15:43:41 ERROR Scanlines remaining: 255 [0m
+2022.07.23 15:45:10 ERROR [error response][evaluate]: Cannot evaluate because of failed compilation:
+value toDou is not a member of Int
+possible cause: maybe a semicolon is missing before `value toDou`?.[0m
+2022.07.23 15:46:17 ERROR [error response][evaluate]: Cannot evaluate because of failed compilation:
+')' expected but '}' found..[0m
+2022.07.23 15:46:38 INFO  Closing debug server tcp://0.0.0.0:40331[0m
+2022.07.23 15:46:38 INFO  Canceling debug proxy for [oneweekend.OneWeekEnd][0m
+2022.07.23 15:47:44 INFO  compiling root (1 scala source)[0m
+2022.07.23 15:47:44 INFO  time: compiled root in 0.44s[0m
+2022.07.23 15:48:46 INFO  compiling root (1 scala source)[0m
+2022.07.23 15:48:46 INFO  time: compiled root in 0.4s[0m
+2022.07.23 15:48:54 INFO  compiling root (1 scala source)[0m
+2022.07.23 15:48:54 INFO  time: compiled root in 0.41s[0m
+2022.07.23 15:49:37 INFO  compiling root (1 scala source)[0m
+2022.07.23 15:49:37 INFO  time: compiled root in 0.4s[0m
+2022.07.23 15:49:58 INFO  compiling root (1 scala source)[0m
+2022.07.23 15:49:58 INFO  time: compiled root in 0.43s[0m
+2022.07.23 15:55:42 INFO  compiling root (1 scala source)[0m
+2022.07.23 15:55:42 INFO  time: compiled root in 0.37s[0m
+2022.07.23 16:02:04 INFO  compiling root (1 scala source)[0m
+2022.07.23 16:02:04 INFO  time: compiled root in 0.43s[0m
+2022.07.23 16:03:19 INFO  compiling root (1 scala source)[0m
+2022.07.23 16:03:19 INFO  time: compiled root in 0.41s[0m
+2022.07.23 16:03:58 INFO  compiling root (1 scala source)[0m
+2022.07.23 16:03:58 INFO  time: compiled root in 0.42s[0m
+2022.07.23 16:06:32 INFO  compiling root (1 scala source)[0m
+2022.07.23 16:06:32 INFO  time: compiled root in 0.15s[0m
+2022.07.23 16:06:42 INFO  compiling root (1 scala source)[0m
+2022.07.23 16:06:42 INFO  time: compiled root in 0.54s[0m
+2022.07.23 16:07:11 INFO  compiling root (1 scala source)[0m
+2022.07.23 16:07:11 INFO  time: compiled root in 0.16s[0m
+2022.07.23 16:07:13 INFO  compiling root (1 scala source)[0m
+2022.07.23 16:07:13 INFO  time: compiled root in 0.27s[0m
+2022.07.23 16:09:17 INFO  compiling oneweekend-build (1 scala source)[0m
+2022.07.23 16:09:17 INFO  Non-compiled module 'compiler-bridge_2.12' for Scala 2.12.16. Compiling...[0m
+2022.07.23 16:09:20 INFO  time: code lens generation in 2.57s[0m
+2022.07.23 16:09:25 INFO    Compilation completed in 7.7s.[0m
+2022.07.23 16:09:27 INFO  time: compiled oneweekend-build in 10s[0m
+2022.07.23 16:11:07 INFO  running '/usr/lib/jvm/default/bin/java -Djline.terminal=jline.UnsupportedTerminal -Dsbt.log.noformat=true -Dfile.encoding=UTF-8 -jar /tmp/metals9302724188748612059/sbt-launch.jar -Dbloop.export-jar-classifiers=sources bloopInstall'[0m
+2022.07.23 16:11:08 INFO  [info] welcome to sbt 1.7.1 (Oracle Corporation Java 11.0.15)[0m
+2022.07.23 16:11:08 INFO  [info] loading settings for project oneweekend-build-build from metals.sbt ...[0m
+2022.07.23 16:11:09 INFO  [info] loading project definition from /home/gumuncle/source/raytracing.github.io/src/InOneWeekend/scala/oneweekend/project/project[0m
+2022.07.23 16:11:09 INFO  [info] loading settings for project oneweekend-build from metals.sbt ...[0m
+2022.07.23 16:11:10 INFO  [info] loading project definition from /home/gumuncle/source/raytracing.github.io/src/InOneWeekend/scala/oneweekend/project[0m
+2022.07.23 16:11:12 INFO  [success] Generated .bloop/oneweekend-build.json[0m
+2022.07.23 16:11:12 INFO  [success] Total time: 2 s, completed 2022/07/23 16:11:12[0m
+2022.07.23 16:11:13 ERROR /home/gumuncle/source/raytracing.github.io/src/InOneWeekend/scala/oneweekend/build.sbt:11: error: No Append.Value[Seq[sbt.librarymanagement.ModuleID], Seq[sbt.librarymanagement.ModuleID]] found, so Seq[sbt.librarymanagement.ModuleID] cannot be appended to Seq[sbt.librarymanagement.ModuleID][0m
+2022.07.23 16:11:13 ERROR     libraryDependencies += Seq(scalaTest % Test,[0m
+2022.07.23 16:11:13 ERROR                         ^[0m
+2022.07.23 16:11:13 ERROR sbt.compiler.EvalException: Type error in expression[0m
+2022.07.23 16:11:13 INFO  [error] sbt.compiler.EvalException: Type error in expression[0m
+2022.07.23 16:11:13 INFO  [error] Use 'last' for the full log.[0m
+2022.07.23 16:11:13 INFO  [warn] Project loading failed: (r)etry, (q)uit, (l)ast, or (i)gnore? (default: r)[0m
+2022.07.23 16:11:13 INFO  time: ran 'sbt bloopInstall' in 6.59s[0m
+2022.07.23 16:11:13 ERROR sbt command failed: /usr/lib/jvm/default/bin/java -Djline.terminal=jline.UnsupportedTerminal -Dsbt.log.noformat=true -Dfile.encoding=UTF-8 -jar /tmp/metals9302724188748612059/sbt-launch.jar -Dbloop.export-jar-classifiers=sources bloopInstall[0m
+2022.07.23 16:11:13 INFO  Disconnecting from Bloop session...[0m
+2022.07.23 16:11:13 INFO  Shut down connection with build server.[0m
+2022.07.23 16:11:13 INFO  Shut down connection with build server.[0m
+2022.07.23 16:11:13 INFO  Attempting to connect to the build server...[0m
+2022.07.23 16:11:13 INFO  Bloop uses /usr/lib/jvm/java-18-openjdk/ defined at /home/gumuncle/.bloop/bloop.json[0m
+2022.07.23 16:11:13 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/gumuncle/source/raytracing.github.io/src/InOneWeekend/scala/oneweekend/.metals/bsp.trace.json or /home/gumuncle/.cache/metals/bsp.trace.json[0m
+2022.07.23 16:11:13 INFO  Attempting to connect to the build server...[0m
+2022.07.23 16:11:13 INFO  Bloop uses /usr/lib/jvm/java-18-openjdk/ defined at /home/gumuncle/.bloop/bloop.json[0m
+2022.07.23 16:11:13 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/gumuncle/source/raytracing.github.io/src/InOneWeekend/scala/oneweekend/project/.metals/bsp.trace.json or /home/gumuncle/.cache/metals/bsp.trace.json[0m
+2022.07.23 16:11:13 INFO  time: Connected to build server in 36ms[0m
+2022.07.23 16:11:13 INFO  Connected to Build server: Bloop v1.5.2[0m
+2022.07.23 16:11:15 WARN  Could not find java sources in /usr/lib/jvm/src.zip, /usr/lib/jvm/lib/src.zip, /usr/lib/jvm/default/src.zip, /usr/lib/jvm/default/lib/src.zip. Java symbols will not be available.[0m
+2022.07.23 16:11:15 WARN  Could not find java sources in /usr/lib/jvm/src.zip, /usr/lib/jvm/lib/src.zip, /usr/lib/jvm/default/src.zip, /usr/lib/jvm/default/lib/src.zip. Java symbols will not be available.[0m
+2022.07.23 16:11:15 INFO  time: indexed workspace in 1.49s[0m
+2022.07.23 16:11:16 INFO  time: code lens generation in 1.18s[0m
+2022.07.23 16:11:59 INFO  compiling root (1 scala source)[0m
+2022.07.23 16:11:59 INFO  time: compiled root in 0.24s[0m
+2022.07.23 16:12:10 INFO  compiling root (1 scala source)[0m
+2022.07.23 16:12:10 INFO  time: compiled root in 0.18s[0m
+2022.07.23 16:12:54 INFO  running '/usr/lib/jvm/default/bin/java -Djline.terminal=jline.UnsupportedTerminal -Dsbt.log.noformat=true -Dfile.encoding=UTF-8 -jar /tmp/metals9497773041015677700/sbt-launch.jar -Dbloop.export-jar-classifiers=sources bloopInstall'[0m
+2022.07.23 16:12:55 INFO  [info] welcome to sbt 1.7.1 (Oracle Corporation Java 11.0.15)[0m
+2022.07.23 16:12:55 INFO  [info] loading settings for project oneweekend-build-build from metals.sbt ...[0m
+2022.07.23 16:12:57 INFO  [info] loading project definition from /home/gumuncle/source/raytracing.github.io/src/InOneWeekend/scala/oneweekend/project/project[0m
+2022.07.23 16:12:57 INFO  [info] loading settings for project oneweekend-build from metals.sbt ...[0m
+2022.07.23 16:12:57 INFO  [info] loading project definition from /home/gumuncle/source/raytracing.github.io/src/InOneWeekend/scala/oneweekend/project[0m
+2022.07.23 16:12:59 INFO  [success] Generated .bloop/oneweekend-build.json[0m
+2022.07.23 16:12:59 INFO  [success] Total time: 2 s, completed 2022/07/23 16:12:59[0m
+2022.07.23 16:13:00 ERROR /home/gumuncle/source/raytracing.github.io/src/InOneWeekend/scala/oneweekend/build.sbt:11: error: No Append.Value[Seq[sbt.librarymanagement.ModuleID], Seq[sbt.librarymanagement.ModuleID]] found, so Seq[sbt.librarymanagement.ModuleID] cannot be appended to Seq[sbt.librarymanagement.ModuleID][0m
+2022.07.23 16:13:00 ERROR     libraryDependencies += Seq(scalaTest % Test,[0m
+2022.07.23 16:13:00 ERROR                         ^[0m
+2022.07.23 16:13:00 ERROR sbt.compiler.EvalException: Type error in expression[0m
+2022.07.23 16:13:00 INFO  [error] sbt.compiler.EvalException: Type error in expression[0m
+2022.07.23 16:13:00 INFO  [error] Use 'last' for the full log.[0m
+2022.07.23 16:13:00 INFO  [warn] Project loading failed: (r)etry, (q)uit, (l)ast, or (i)gnore? (default: r)[0m
+2022.07.23 16:13:01 INFO  time: ran 'sbt bloopInstall' in 6.51s[0m
+2022.07.23 16:13:01 ERROR sbt command failed: /usr/lib/jvm/default/bin/java -Djline.terminal=jline.UnsupportedTerminal -Dsbt.log.noformat=true -Dfile.encoding=UTF-8 -jar /tmp/metals9497773041015677700/sbt-launch.jar -Dbloop.export-jar-classifiers=sources bloopInstall[0m
+2022.07.23 16:13:01 INFO  Disconnecting from Bloop session...[0m
+2022.07.23 16:13:01 INFO  Shut down connection with build server.[0m
+2022.07.23 16:13:01 INFO  Shut down connection with build server.[0m
+2022.07.23 16:13:01 INFO  Attempting to connect to the build server...[0m
+2022.07.23 16:13:01 INFO  Bloop uses /usr/lib/jvm/java-18-openjdk/ defined at /home/gumuncle/.bloop/bloop.json[0m
+2022.07.23 16:13:01 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/gumuncle/source/raytracing.github.io/src/InOneWeekend/scala/oneweekend/.metals/bsp.trace.json or /home/gumuncle/.cache/metals/bsp.trace.json[0m
+2022.07.23 16:13:01 INFO  Attempting to connect to the build server...[0m
+2022.07.23 16:13:01 INFO  Bloop uses /usr/lib/jvm/java-18-openjdk/ defined at /home/gumuncle/.bloop/bloop.json[0m
+2022.07.23 16:13:01 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/gumuncle/source/raytracing.github.io/src/InOneWeekend/scala/oneweekend/project/.metals/bsp.trace.json or /home/gumuncle/.cache/metals/bsp.trace.json[0m
+2022.07.23 16:13:01 INFO  time: Connected to build server in 34ms[0m
+2022.07.23 16:13:01 INFO  Connected to Build server: Bloop v1.5.2[0m
+2022.07.23 16:13:02 WARN  Could not find java sources in /usr/lib/jvm/src.zip, /usr/lib/jvm/lib/src.zip, /usr/lib/jvm/default/src.zip, /usr/lib/jvm/default/lib/src.zip. Java symbols will not be available.[0m
+2022.07.23 16:13:02 WARN  Could not find java sources in /usr/lib/jvm/src.zip, /usr/lib/jvm/lib/src.zip, /usr/lib/jvm/default/src.zip, /usr/lib/jvm/default/lib/src.zip. Java symbols will not be available.[0m
+2022.07.23 16:13:02 INFO  time: indexed workspace in 1.45s[0m
+2022.07.23 16:13:02 INFO  compiling root (1 scala source)[0m
+2022.07.23 16:13:04 INFO  time: compiled root in 1.36s[0m
+2022.07.23 16:13:35 INFO  file:///home/gumuncle/source/raytracing.github.io/src/InOneWeekend/scala/oneweekend/src/main/scala/example/Utils.scala:8:8: stale bloop error: object parallel is not a member of package collection
+import scala.collection.parallel.CollectionConverters._
+       ^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+2022.07.23 16:13:35 INFO  file:///home/gumuncle/source/raytracing.github.io/src/InOneWeekend/scala/oneweekend/src/main/scala/example/Utils.scala:10:8: stale bloop error: object parallel is not a member of package collection
+import scala.collection.parallel.immutable.ParSeq
+       ^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+2022.07.23 16:13:35 INFO  file:///home/gumuncle/source/raytracing.github.io/src/InOneWeekend/scala/oneweekend/src/main/scala/example/Utils.scala:21:83: stale bloop error: not found: type Color3
+  def color(rand: Random, r: Ray, hitable: Hitable, minFloat: Float, depth: Int): Color3 = {
+                                                                                  ^^^^^^[0m
+2022.07.23 16:13:35 INFO  file:///home/gumuncle/source/raytracing.github.io/src/InOneWeekend/scala/oneweekend/src/main/scala/example/Utils.scala:21:30: stale bloop error: not found: type Ray
+  def color(rand: Random, r: Ray, hitable: Hitable, minFloat: Float, depth: Int): Color3 = {
+                             ^^^[0m
+2022.07.23 16:13:35 INFO  file:///home/gumuncle/source/raytracing.github.io/src/InOneWeekend/scala/oneweekend/src/main/scala/example/Utils.scala:21:44: stale bloop error: not found: type Hitable
+  def color(rand: Random, r: Ray, hitable: Hitable, minFloat: Float, depth: Int): Color3 = {
+                                           ^^^^^^^[0m
+2022.07.23 16:13:35 INFO  file:///home/gumuncle/source/raytracing.github.io/src/InOneWeekend/scala/oneweekend/src/main/scala/example/Utils.scala:26:11: stale bloop error: value material is not a member of Any
+          hitRecord.material.scatter(rand, r, hitRecord) match {
+          ^^^^^^^^^^^^^^^^^^[0m
+2022.07.23 16:13:35 INFO  file:///home/gumuncle/source/raytracing.github.io/src/InOneWeekend/scala/oneweekend/src/main/scala/example/Utils.scala:27:23: stale bloop error: not found: value ScatterRecord
+            case Some(ScatterRecord(attenuation, scattered)) =>
+                      ^^^^^^^^^^^^^[0m
+2022.07.23 16:13:35 INFO  file:///home/gumuncle/source/raytracing.github.io/src/InOneWeekend/scala/oneweekend/src/main/scala/example/Utils.scala:29:15: stale bloop error: not found: value Color3
+              Color3(col.r * attenuation.r, col.g * attenuation.g, col.b * attenuation.b)
+              ^^^^^^[0m
+2022.07.23 16:13:35 INFO  file:///home/gumuncle/source/raytracing.github.io/src/InOneWeekend/scala/oneweekend/src/main/scala/example/Utils.scala:31:15: stale bloop error: not found: value Color3
+              Color3(0f, 0f, 0f)
+              ^^^^^^[0m
+2022.07.23 16:13:35 INFO  file:///home/gumuncle/source/raytracing.github.io/src/InOneWeekend/scala/oneweekend/src/main/scala/example/Utils.scala:34:11: stale bloop error: not found: value Color3
+          Color3(0f, 0f, 0f)
+          ^^^^^^[0m
+2022.07.23 16:13:35 INFO  file:///home/gumuncle/source/raytracing.github.io/src/InOneWeekend/scala/oneweekend/src/main/scala/example/Utils.scala:40:9: stale bloop error: not found: value Color3
+        Color3(1f, 1f, 1f) * (1f - t) + Color3(0.5f, 0.7f, 1.0f) * t
+        ^^^^^^[0m
+2022.07.23 16:13:35 INFO  file:///home/gumuncle/source/raytracing.github.io/src/InOneWeekend/scala/oneweekend/src/main/scala/example/Utils.scala:40:41: stale bloop error: not found: value Color3
+        Color3(1f, 1f, 1f) * (1f - t) + Color3(0.5f, 0.7f, 1.0f) * t
+                                        ^^^^^^[0m
+2022.07.23 16:13:35 INFO  file:///home/gumuncle/source/raytracing.github.io/src/InOneWeekend/scala/oneweekend/src/main/scala/example/Utils.scala:45:37: stale bloop error: not found: type RayTracingIOWOptions
+  def renderToOutputStream(options: RayTracingIOWOptions, sceneGenerator: Random => Scene, outputStream: OutputStream): Unit = {
+                                    ^^^^^^^^^^^^^^^^^^^^[0m
+2022.07.23 16:13:35 INFO  file:///home/gumuncle/source/raytracing.github.io/src/InOneWeekend/scala/oneweekend/src/main/scala/example/Utils.scala:45:85: stale bloop error: not found: type Scene
+  def renderToOutputStream(options: RayTracingIOWOptions, sceneGenerator: Random => Scene, outputStream: OutputStream): Unit = {
+                                                                                    ^^^^^[0m
+2022.07.23 16:13:35 INFO  file:///home/gumuncle/source/raytracing.github.io/src/InOneWeekend/scala/oneweekend/src/main/scala/example/Utils.scala:51:20: stale bloop error: not found: type ImgFormat
+    val imgFormat: ImgFormat = options.imgFormat
+                   ^^^^^^^^^[0m
+2022.07.23 16:13:35 INFO  file:///home/gumuncle/source/raytracing.github.io/src/InOneWeekend/scala/oneweekend/src/main/scala/example/Utils.scala:55:16: stale bloop error: not found: type Scene
+    val scene: Scene = sceneGenerator(rand)
+               ^^^^^[0m
+2022.07.23 16:13:35 INFO  file:///home/gumuncle/source/raytracing.github.io/src/InOneWeekend/scala/oneweekend/src/main/scala/example/Utils.scala:56:18: stale bloop error: not found: type Hitable
+    val hitable: Hitable = scene.hitable
+                 ^^^^^^^[0m
+2022.07.23 16:13:35 INFO  file:///home/gumuncle/source/raytracing.github.io/src/InOneWeekend/scala/oneweekend/src/main/scala/example/Utils.scala:66:25: stale bloop error: not found: type ParSeq
+    val colorAndPosPar: ParSeq[(Color3, (Int, Int))] = for{
+                        ^^^^^^[0m
+2022.07.23 16:13:35 INFO  file:///home/gumuncle/source/raytracing.github.io/src/InOneWeekend/scala/oneweekend/src/main/scala/example/Utils.scala:67:25: stale bloop error: value par is not a member of Stream[((Int, Int), Int)]
+did you mean map, max, or span?
+      ((i, j), seed) <- posAndSeeds.par
+                        ^^^^^^^^^^^^^^^[0m
+2022.07.23 16:13:35 INFO  file:///home/gumuncle/source/raytracing.github.io/src/InOneWeekend/scala/oneweekend/src/main/scala/example/Utils.scala:71:30: stale bloop error: multiple constructors for Random with alternatives:
+  (seed: Int)scala.util.Random <and>
+  (seed: Long)scala.util.Random
+ cannot be invoked with (seed: Any)
+      val rand: Random = new Random(seed = seed)
+                             ^^^^^^[0m
+2022.07.23 16:13:35 INFO  file:///home/gumuncle/source/raytracing.github.io/src/InOneWeekend/scala/oneweekend/src/main/scala/example/Utils.scala:76:16: stale bloop error: not found: type Color3
+      var col: Color3 =
+               ^^^^^^[0m
+2022.07.23 16:13:35 INFO  file:///home/gumuncle/source/raytracing.github.io/src/InOneWeekend/scala/oneweekend/src/main/scala/example/Utils.scala:77:22: stale bloop error: value par is not a member of Seq[Int]
+did you mean map, max, or span?
+        (for(seed <- randomSeeds.par)
+                     ^^^^^^^^^^^^^^^[0m
+2022.07.23 16:13:35 INFO  file:///home/gumuncle/source/raytracing.github.io/src/InOneWeekend/scala/oneweekend/src/main/scala/example/Utils.scala:80:33: stale bloop error: type mismatch;
+ found   : Float
+ required: String
+            val u: Float = (i + rand.nextFloat()) / width
+                                ^^^^^^^^^^^^^^^^[0m
+2022.07.23 16:13:35 INFO  file:///home/gumuncle/source/raytracing.github.io/src/InOneWeekend/scala/oneweekend/src/main/scala/example/Utils.scala:81:33: stale bloop error: type mismatch;
+ found   : Float
+ required: String
+            val v: Float = (j + rand.nextFloat()) / height
+                                ^^^^^^^^^^^^^^^^[0m
+2022.07.23 16:13:35 INFO  file:///home/gumuncle/source/raytracing.github.io/src/InOneWeekend/scala/oneweekend/src/main/scala/example/Utils.scala:82:20: stale bloop error: not found: type Ray
+            val r: Ray   = camera.getRay(rand, u, v)
+                   ^^^[0m
+2022.07.23 16:13:35 INFO  file:///home/gumuncle/source/raytracing.github.io/src/InOneWeekend/scala/oneweekend/src/main/scala/example/Utils.scala:87:13: stale bloop error: not found: value Color3
+      col = Color3(Math.sqrt(col.r).toFloat, Math.sqrt(col.g).toFloat, Math.sqrt(col.b).toFloat)
+            ^^^^^^[0m
+2022.07.23 16:13:35 INFO  file:///home/gumuncle/source/raytracing.github.io/src/InOneWeekend/scala/oneweekend/src/main/scala/example/Utils.scala:92:12: stale bloop error: not found: value TextPpmImgFormat
+Identifiers that begin with uppercase are not pattern variables but match the value in scope.
+      case TextPpmImgFormat =>
+           ^^^^^^^^^^^^^^^^[0m
+2022.07.23 16:13:35 INFO  file:///home/gumuncle/source/raytracing.github.io/src/InOneWeekend/scala/oneweekend/src/main/scala/example/Utils.scala:102:12: stale bloop error: not found: value BinaryPpmImgFormat
+Identifiers that begin with uppercase are not pattern variables but match the value in scope.
+      case BinaryPpmImgFormat =>
+           ^^^^^^^^^^^^^^^^^^[0m
+2022.07.23 16:13:35 INFO  file:///home/gumuncle/source/raytracing.github.io/src/InOneWeekend/scala/oneweekend/src/main/scala/example/Utils.scala:122:33: stale bloop error: not found: type RayTracingIOWOptions
+  def renderAmimeToDir(options: RayTracingIOWOptions, animeGenerator: Random => Seq[Scene]): Unit = {
+                                ^^^^^^^^^^^^^^^^^^^^[0m
+2022.07.23 16:13:35 INFO  file:///home/gumuncle/source/raytracing.github.io/src/InOneWeekend/scala/oneweekend/src/main/scala/example/Utils.scala:122:85: stale bloop error: not found: type Scene
+  def renderAmimeToDir(options: RayTracingIOWOptions, animeGenerator: Random => Seq[Scene]): Unit = {
+                                                                                    ^^^^^[0m
+2022.07.23 16:13:35 INFO  file:///home/gumuncle/source/raytracing.github.io/src/InOneWeekend/scala/oneweekend/src/main/scala/example/Utils.scala:132:21: stale bloop error: not found: type Scene
+    val scenes: Seq[Scene] = animeGenerator(rand)
+                    ^^^^^[0m
+2022.07.23 16:13:35 INFO  file:///home/gumuncle/source/raytracing.github.io/src/InOneWeekend/scala/oneweekend/src/main/scala/example/Utils.scala:145:94: stale bloop error: not found: type Scene
+  def skipAnimeGenerator(skipStep: Int, animeGenerator: Random => Seq[Scene]): Random => Seq[Scene] = {
+                                                                                             ^^^^^[0m
+2022.07.23 16:13:35 INFO  file:///home/gumuncle/source/raytracing.github.io/src/InOneWeekend/scala/oneweekend/src/main/scala/example/Utils.scala:145:71: stale bloop error: not found: type Scene
+  def skipAnimeGenerator(skipStep: Int, animeGenerator: Random => Seq[Scene]): Random => Seq[Scene] = {
+                                                                      ^^^^^[0m
+2022.07.23 16:13:39 INFO  compiling root (1 scala source)[0m
+2022.07.23 16:13:39 INFO  time: compiled root in 0.2s[0m
